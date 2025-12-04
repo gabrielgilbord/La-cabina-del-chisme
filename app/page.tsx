@@ -13,18 +13,18 @@ export default async function Home() {
           <span className="text-8xl md:text-9xl">🎙️</span>
         </div>
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-display font-black mb-6 leading-tight">
-          <span className="bg-gradient-to-r from-pink-500 via-purple-500 to-pink-500 bg-clip-text text-transparent animate-gradient bg-[length:200%_auto] drop-shadow-[0_0_15px_rgba(236,72,153,0.9)] [text-shadow:_0_0_20px_rgba(236,72,153,0.6),_0_0_30px_rgba(168,85,247,0.4)]">
+          <span className="bg-gradient-to-r from-pink-300 via-purple-300 to-pink-300 bg-clip-text text-transparent animate-gradient bg-[length:200%_auto] drop-shadow-[0_0_15px_rgba(236,72,153,0.9)] [text-shadow:_0_0_20px_rgba(236,72,153,0.8),_0_0_30px_rgba(168,85,247,0.6),_0_2px_4px_rgba(0,0,0,0.8)]">
             LA CABINA
           </span>
           <br />
-          <span className="bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent animate-gradient bg-[length:200%_auto] drop-shadow-[0_0_15px_rgba(168,85,247,0.9)] [text-shadow:_0_0_20px_rgba(168,85,247,0.6),_0_0_30px_rgba(236,72,153,0.4)]">
+          <span className="bg-gradient-to-r from-purple-300 via-pink-300 to-pink-300 bg-clip-text text-transparent animate-gradient bg-[length:200%_auto] drop-shadow-[0_0_15px_rgba(168,85,247,0.9)] [text-shadow:_0_0_20px_rgba(168,85,247,0.8),_0_0_30px_rgba(236,72,153,0.6),_0_2px_4px_rgba(0,0,0,0.8)]">
             DEL CHISME
           </span>
         </h1>
-        <p className="text-lg md:text-xl text-white max-w-3xl mx-auto leading-relaxed font-bold drop-shadow-[0_0_8px_rgba(0,0,0,0.8)] [text-shadow:_0_2px_4px_rgba(0,0,0,0.5),_0_0_10px_rgba(255,255,255,0.1)]">
-          El lugar donde los chismes más <span className="text-pink-500 font-black [text-shadow:_0_0_10px_rgba(236,72,153,0.8)]">jugosos</span> encuentran su voz.
+        <p className="text-lg md:text-xl text-white max-w-3xl mx-auto leading-relaxed font-bold drop-shadow-[0_0_8px_rgba(0,0,0,0.8)] [text-shadow:_0_2px_4px_rgba(0,0,0,0.8),_0_0_10px_rgba(255,255,255,0.2)]">
+          El lugar donde los chismes más <span className="text-pink-300 font-black [text-shadow:_0_0_10px_rgba(236,72,153,0.8),_0_2px_4px_rgba(0,0,0,0.8)]">jugosos</span> encuentran su voz.
           <br />
-          Comparte, descubre y disfruta de los mejores chismes de forma <span className="text-purple-500 font-black [text-shadow:_0_0_10px_rgba(168,85,247,0.8)]">anónima</span>.
+          Comparte, descubre y disfruta de los mejores chismes de forma <span className="text-purple-300 font-black [text-shadow:_0_0_10px_rgba(168,85,247,0.8),_0_2px_4px_rgba(0,0,0,0.8)]">anónima</span>.
         </p>
         <div className="mt-8 flex justify-center gap-4 mb-8">
           <div className="h-1 w-20 bg-gradient-to-r from-transparent via-pink-500 to-transparent rounded-full animate-pulse"></div>
