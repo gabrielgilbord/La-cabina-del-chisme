@@ -84,11 +84,11 @@ export function ChismesFeed({ user: initialUser }: { user: User | null }) {
 
   const loadProfiles = async (chismesData: Chisme[]) => {
     // Obtener IDs de usuarios que no son anónimos
-    const userIds = [...new Set(
+    const userIds = Array.from(new Set(
       chismesData
         .filter(c => !c.anonimo)
         .map(c => c.user_id)
-    )]
+    ))
 
     if (userIds.length === 0) {
       setChismes(chismesData)

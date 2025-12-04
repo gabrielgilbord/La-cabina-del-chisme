@@ -94,7 +94,7 @@ export default function ChismePage() {
 
     if (comentariosData) {
       // Obtener los perfiles de los usuarios que comentaron
-      const userIds = [...new Set(comentariosData.map(c => c.user_id))]
+      const userIds = Array.from(new Set(comentariosData.map(c => c.user_id)))
       const { data: profilesData } = await supabase
         .from('profiles')
         .select('id, email, username')

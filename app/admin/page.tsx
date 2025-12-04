@@ -97,7 +97,7 @@ export default function AdminPage() {
     }
 
     if (chismesData && chismesData.length > 0) {
-      const userIds = [...new Set(chismesData.map(c => c.user_id))]
+      const userIds = Array.from(new Set(chismesData.map(c => c.user_id)))
       const { data: profilesData } = await supabase
         .from('profiles')
         .select('id, username, email')
