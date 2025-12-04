@@ -13,7 +13,7 @@ const config: Config = {
       },
       fontFamily: {
         'display': ['Righteous', 'cursive'],
-        'body': ['Poppins', 'sans-serif'],
+        'body': ['var(--font-poppins)', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'sans-serif'],
       },
       colors: {
         primary: {
