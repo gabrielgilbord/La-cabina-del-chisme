@@ -12,7 +12,7 @@ const config: Config = {
         'xs': '475px',
       },
       fontFamily: {
-        'display': ['Righteous', 'cursive'],
+        'display': ['var(--font-righteous)', 'Impact', 'Arial Black', 'sans-serif'],
         'body': ['var(--font-poppins)', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'sans-serif'],
       },
       colors: {
