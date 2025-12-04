@@ -325,7 +325,7 @@ export default function MisChismesPage() {
                     </p>
                     <div className="flex items-center justify-between pt-4 border-t border-white/10">
                       <span className="text-sm text-white/70">
-                        {format(new Date(chisme.created_at), "dd MMM yyyy 'a las' HH:mm")}
+                        {format(new Date(chisme.created_at), "dd/MM/yyyy HH:mm")}
                       </span>
                       <span className="text-sm text-white/70">
                         {chisme.anonimo ? '🔒 Anónimo' : '👤 Público'}

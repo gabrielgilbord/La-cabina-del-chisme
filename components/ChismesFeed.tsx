@@ -179,7 +179,7 @@ export function ChismesFeed({ user: initialUser }: { user: User | null }) {
             </Link>
             <div className="ml-4 flex items-center gap-2">
               <span className="text-xs md:text-sm text-white/80 bg-black/40 px-3 py-1.5 rounded-full border border-white/20 font-medium">
-                {format(new Date(chisme.created_at), "dd MMM yyyy 'a las' HH:mm")}
+                {format(new Date(chisme.created_at), "dd/MM/yyyy HH:mm")}
               </span>
             </div>
           </div>

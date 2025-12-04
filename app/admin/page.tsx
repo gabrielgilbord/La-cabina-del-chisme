@@ -206,7 +206,7 @@ export default function AdminPage() {
                   <div className="flex justify-between items-start mb-6">
                     <h3 className="text-2xl md:text-3xl font-display font-bold text-white flex-1">{chisme.titulo}</h3>
                     <span className="text-xs md:text-sm text-white/80 bg-black/40 px-3 py-1.5 rounded-full border border-white/20 ml-4 font-medium">
-                      {format(new Date(chisme.created_at), "dd MMM yyyy, HH:mm")}
+                      {format(new Date(chisme.created_at), "dd/MM/yyyy HH:mm")}
                     </span>
                   </div>
                   <p className="text-white text-lg leading-relaxed whitespace-pre-wrap mb-6 font-medium">{chisme.contenido}</p>
@@ -256,7 +256,7 @@ export default function AdminPage() {
                   <div className="flex justify-between items-start mb-6">
                     <h3 className="text-2xl md:text-3xl font-display font-bold text-white flex-1">{chisme.titulo}</h3>
                     <span className="text-xs md:text-sm text-white/80 bg-black/40 px-3 py-1.5 rounded-full border border-white/20 ml-4 font-medium">
-                      {format(new Date(chisme.created_at), "dd MMM yyyy, HH:mm")}
+                      {format(new Date(chisme.created_at), "dd/MM/yyyy HH:mm")}
                     </span>
                   </div>
                   <p className="text-white text-lg leading-relaxed whitespace-pre-wrap mb-6 font-medium">{chisme.contenido}</p>

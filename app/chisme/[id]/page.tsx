@@ -150,7 +150,7 @@ export default function ChismePage() {
   }
 
   return (
-    <div className="container mx-auto px-4 py-8 md:py-12 max-w-4xl">
+    <div className="container mx-auto px-2 sm:px-4 py-6 sm:py-8 md:py-12 max-w-4xl">
       <Link
         href="/"
         className="inline-flex items-center gap-2 text-white hover:text-pink-300 mb-6 transition-colors"
@@ -159,14 +159,16 @@ export default function ChismePage() {
         <span>Volver al inicio</span>
       </Link>
 
-      <article className="glass-dark rounded-3xl p-8 md:p-10 border border-white/10 backdrop-blur-xl mb-8">
-        <div className="flex items-start justify-between mb-6">
-          <h1 className="text-3xl md:text-4xl font-display font-bold text-white flex-1">
+      <article className="glass-dark rounded-3xl p-6 md:p-8 lg:p-10 border border-white/10 backdrop-blur-xl mb-8">
+        <div className="mb-6">
+          <div className="mb-4">
+            <span className="text-xs md:text-sm text-white/80 bg-black/40 px-3 py-1.5 rounded-full border border-white/20 font-medium">
+              {format(new Date(chisme.created_at), "dd/MM/yyyy HH:mm")}
+            </span>
+          </div>
+          <h1 className="text-2xl md:text-3xl lg:text-4xl font-display font-bold text-white w-full">
             {chisme.titulo}
           </h1>
-          <span className="text-xs md:text-sm text-white/80 bg-black/40 px-3 py-1.5 rounded-full border border-white/20 ml-4 font-medium">
-            {format(new Date(chisme.created_at), "dd MMM yyyy 'a las' HH:mm")}
-          </span>
         </div>
 
         <div className="mb-6">
@@ -250,7 +252,7 @@ export default function ChismePage() {
                       <div className="flex items-center gap-2 mb-2">
                         <span className="text-white font-semibold">{nombreUsuario}</span>
                         <span className="text-xs text-white/50">
-                          {format(new Date(comentario.created_at), "dd MMM yyyy, HH:mm")}
+                          {format(new Date(comentario.created_at), "dd/MM/yyyy HH:mm")}
                         </span>
                       </div>
                       <p className="text-white/90 leading-relaxed">{comentario.contenido}</p>
